@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
+
+* {
+  font-family: 'Anonymous Pro', monospace;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-weight: bold;
+}
+
+.body {
+  background: #CAF0F8;
+  transition: 2s;
+
+}
+.bodyvermelho {
+  background: #E01E37;
+  transition: 2s;
+
+}
+.bodyamarelo {
+  background: #FFFF3F;
+  transition: 2s;
+
+}
+.bodyroxo {
+  background: #E0AAFF;
+  transition: 2s;
+
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.formulario {
+  display: flex;
+  justify-content: center;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 58px;
+  background: #0077B6;
+  border-radius: 10px;
+  transition: 1s;
+
+}
+.formvermelho {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 58px;
+  background: #BD1F36;
+  border-radius: 10px;
+  transition: 1s;
+
+}
+.formamarelo {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 58px;
+  background: #DDDF00;
+  border-radius: 10px;
+  transition: 1s;
+
+}
+.formroxo {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 58px;
+  background: #5A189A;
+  border-radius: 10px;
+  transition: 1s;
+
+}
+.form h1 {
+  margin-bottom: 39px;
+  text-align: center;
+  font-size: 32px;
+  color: #CAF0F8;
+  transition: 1s;
+
+}
+.formvermelho h1 {
+  margin-bottom: 39px;
+  text-align: center;
+  font-size: 32px;
+  color: #641220;
+  transition: 1s;
+
+}
+.formamarelo h1 {
+  margin-bottom: 39px;
+  text-align: center;
+  font-size: 32px;
+  color: #007F5F;
+  transition: 1s;
+
+}
+.formroxo h1 {
+  margin-bottom: 39px;
+  text-align: center;
+  font-size: 32px;
+  color: #C77DFF;
+  transition: 1s;
+
+}
+.label {
+  font-size: 16px;
+  color: #CAF0F8;
+  transition: 1s;
+
+}
+.labelvermelho {
+  font-size: 16px;
+  color: #641220;
+  transition: 1s;
+
+}
+.labelamarelo {
+  font-size: 16px;
+  color: #007F5F;
+  transition: 1s;
+
+}
+.labelroxo {
+  font-size: 16px;
+  color: #10002B;
+  transition: 1s;
+}
+input {
+  color: #fff;
+}
+.inputs {
+  height: 30px;
+  width: 286px;
+  margin-bottom: 7px;
+  border: none;
+  outline: none;
+  background: #90E0EF;
+  color: #03045E;
+  transition: 1s;
+}
+.inputsvermelho {
+  height: 30px;
+  width: 286px;
+  margin-bottom: 7px;
+  border: none;
+  outline: none;
+  background: #85182A;
+  color: #fff;
+  transition: 1s;
+}
+.inputsamarelo {
+  height: 30px;
+  width: 286px;
+  margin-bottom: 7px;
+  border: none;
+  outline: none;
+  background: #FFFF3F;
+  color: #007F5F;
+  transition: 1s;
+}
+.inputsroxo {
+  height: 30px;
+  width: 286px;
+  margin-bottom: 7px;
+  border: none;
+  outline: none;
+  background: #7B2CBF;
+  transition: 1s;
+}
+.cadastrar {
+  display: flex;
+  justify-content: center;
+}
+.cadastro {
+  width: 163px;
+  height: 30px;
+  margin-top: 36px;
+  background: #023E8A;
+  border: none;
+  cursor: pointer;
+  color: #CAF0F8;
+  transition: 1s;
+}
+.cadastrovermelho {
+  width: 163px;
+  height: 30px;
+  margin-top: 36px;
+  background: #6E1423;
+  border: none;
+  cursor: pointer;
+  color: #E01E37;
+  transition: 1s;
+}
+.cadastroamarelo {
+  width: 163px;
+  height: 30px;
+  margin-top: 36px;
+  background: #2B9348;
+  border: none;
+  cursor: pointer;
+  color: #FFFF3F;
+  transition: 1s;
+}
+.cadastroroxo {
+  width: 163px;
+  height: 30px;
+  margin-top: 36px;
+  background: #C77DFF;
+  border: none;
+  cursor: pointer;
+  color: #10002B;
+  transition: 1s;
+}
+.titulo {
+  text-align: center;
+  margin-bottom: 106px;
+  font-size: 32px;
+  color: #03045E;
+  transition: 1s;
+}
+.titulovermelho {
+  text-align: center;
+  margin-bottom: 106px;
+  font-size: 32px;
+  color: #85182A;
+  transition: 1s;
+}
+.tituloamarelo {
+  text-align: center;
+  margin-bottom: 106px;
+  font-size: 32px;
+  color: #007F5F;
+  transition: 1s;
+}
+.tituloroxo {
+  text-align: center;
+  margin-bottom: 106px;
+  font-size: 32px;
+  color: #10002B;
+  transition: 1s;
+}
+.changeColors {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+.footer {
+  text-align: center;
+  font-weight: bold;
+  color: #03045E;
+  transition: 1s;
+}
+.footervermelho {
+  text-align: center;
+  font-weight: bold;
+  color: #641220;
+  transition: 1s;
+}
+.footeramarelo {
+  text-align: center;
+  font-weight: bold;
+  color: #007F5F;
+  transition: 1s;
+}
+.footerroxo {
+  text-align: center;
+  font-weight: bold;
+  color: #10002B;
+  transition: 1s;
+}
+.circle {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%; /* Define a borda como circular */
+  display: inline-block; /* Permite que os círculos fiquem em linha */
+  margin-right: 10px; /* Espaçamento entre os círculos */
+  cursor: pointer;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.purple {
+  background-color: purple;
+}
+.retorno {
+  height: 20px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  height: 1vh;
+  align-items: center;
+  font-size: 15px;
+}
